@@ -1,6 +1,6 @@
-# Hamstr
+# my.nostrver.se
 
-[Hamstr](https://hamstr.to) is a twitter-style [Nostr](https://github.com/fiatjaf/nostr) web client.
+Personal Nostr client based on [Hamstr](https://hamstr.to).
 
 ### Install the dependencies
 ```bash
