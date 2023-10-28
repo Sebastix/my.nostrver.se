@@ -1,10 +1,10 @@
 {
-  "short_name": "Hamstr",
-  "name": "Hamstr - Nostr client",
+  "short_name": "Agnostr",
+  "name": "my.nostrver.se - Nostr client",
   "start_url": "/home",
   "display": "standalone",
-  "theme_color": "#15202b",
-  "background_color": "#15202b",
+  "theme_color": "#090A0F",
+  "background_color": "#090A0F",
   "icons": [
     {
       "src": "icons/favicon-256x256.png",
