@@ -56,8 +56,13 @@ npm run format
 quasar build
 ```
 
+## License
+
+[GNU General Public License version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
 ## Contact
 
 Sebastian Hagens - [sebastix.nl/contact](https://sebastix.nl/contact)
+
 npub: `npub1qe3e5wrvnsgpggtkytxteaqfprz0rgxr8c3l34kk3a9t7e2l3acslezefe`
 handle: `sebastian@sebastix.dev`
