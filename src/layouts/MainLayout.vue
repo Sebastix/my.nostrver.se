@@ -22,6 +22,7 @@
           <SearchBox />
           <WelcomeBox />
           <FollowingBox />
+          <FooterBox />
         </div>
       </div>
 
@@ -49,6 +50,7 @@ import BaseIcon from 'components/BaseIcon/index.vue'
 import SignInDialog from 'components/SignIn/SignInDialog.vue'
 import CreatePostDialog from 'components/CreatePost/CreatePostDialog.vue'
 import FollowingBox from 'components/Sidebar/FollowingBox.vue'
+import FooterBox from 'components/Sidebar/FooterBox.vue'
 
 export default defineComponent({
   name: 'MainLayout',
@@ -60,6 +62,7 @@ export default defineComponent({
     BaseIcon,
     SignInDialog,
     CreatePostDialog,
+    FooterBox,
   },
   data() {
     return {

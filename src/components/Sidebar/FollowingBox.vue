@@ -2,7 +2,7 @@
   <div v-if="app.isSignedIn && contacts?.length" class="following">
     <div class="following-wrapper">
       <div class="following-header">
-        <h3>{{ $t("Following") }}</h3>
+        <h3>{{ $t("You're following") }}</h3>
       </div>
       <div class="following-body">
         <UserCard
@@ -50,14 +50,11 @@ export default {
 @import "assets/theme/colors.scss";
 
 .following {
-  background-color: rgba($color: $color-dark-gray, $alpha: 0.1);
-  border-radius: 1rem;
   &-wrapper {
     position: relative;
   }
   &-header {
     padding: 1rem;
-    border-bottom: $border-dark;
     h3 {
       margin: 0;
       font-size: 1.4rem;
@@ -65,7 +62,7 @@ export default {
     }
   }
   &-body {
-    max-height: calc(100vh - 150px);
+    max-height: calc(100vh - 180px);
     overflow-y: scroll;
     scrollbar-color: transparent transparent;
     &::-webkit-scrollbar {
@@ -83,7 +80,6 @@ export default {
     &-item {
       margin: 0;
       padding: 12px 1rem;
-      border-top: $border-dark;
       transition: 200ms ease;
       cursor: pointer;
       &:first-child {

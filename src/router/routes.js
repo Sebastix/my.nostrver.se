@@ -43,6 +43,11 @@ const routes = [
     component: () => import('pages/Settings.vue'),
     name: 'settings',
   },
+  {
+    path: '/about',
+    component: () => import('pages/About.vue'),
+    name: 'About'
+  }
   // {
   //   path: '/messages/inbox',
   //   component: () => import('pages/Inbox.vue'),

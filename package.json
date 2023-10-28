@@ -1,9 +1,9 @@
 {
-  "name": "hamstr",
+  "name": "my.nostrver.se",
   "version": "0.0.1",
-  "description": "A twitter-style nostr web client",
-  "productName": "Hamstr",
-  "author": "styppo",
+  "description": "",
+  "productName": "",
+  "author": "Sebastian Hagens",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",

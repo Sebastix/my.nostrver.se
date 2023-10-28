@@ -2,13 +2,15 @@ import {defineStore} from 'pinia'
 import {Account} from 'src/nostr/Account'
 
 const RELAYS = [
-  'wss://relay.snort.social',
-  'wss://relay.nostr.ch',
+  'wss://relay.damus.io',
+  'wss://purplepag.es',
   'wss://nos.lol',
-  'wss://nostr-pub.semisol.dev',
-  'wss://nostr.einundzwanzig.space',
-  'wss://nostr.sg',
-  'wss://relay.nostrica.com',
+  'wss://relay.snort.social',
+  'wss://nostr.mutinywallet.com',
+  'wss://relay.nostr.vet',
+  'wss://relay.nostr.nu',
+  'wss://brb.io',
+  'wss://nostr.sebastix.dev'
 ]
 const RELAYS_VERSION = 3
 
