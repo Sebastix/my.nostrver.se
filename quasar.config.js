@@ -27,6 +27,7 @@ module.exports = configure(function (ctx) {
     // https://v2.quasar.dev/quasar-cli-webpack/boot-files
     boot: [
       'i18n',
+      'matomo'
     ],
 
     // https://v2.quasar.dev/quasar-cli-webpack/quasar-config-js#Property%3A-css
@@ -153,9 +154,9 @@ module.exports = configure(function (ctx) {
 
 
       manifest: {
-        name: `Hamstr`,
-        short_name: `Hamstr`,
-        description: `A twitter-style nostr web client`,
+        name: `my.nostrver.se`,
+        short_name: ``,
+        description: `A fork of Hamstr.to, a twitter-style nostr web client`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
