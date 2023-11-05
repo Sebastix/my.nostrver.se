@@ -12,7 +12,7 @@ export default class Nip05 {
       if (!json || !json.names) return
       return json.names[user]
     } catch (e) {
-      //console.warn(`Failed to fetch NIP05 data for ${nip05Id}`, e)
+      console.warn(`Failed to fetch NIP05 data for ${nip05Id}`, e)
     }
   }
 
@@ -23,9 +23,11 @@ export default class Nip05 {
       const json = await res.json()
       return json?.names
     } catch (e) {
-      //console.warn(`Failed to fetch NIP05 data for ${nip05Id}`, e)
+      console.warn(`Failed to fetch NIP05 data for ${domain}`, e)
     }
   }
+
+  //@todo fetchRelays of nip05Id
 
   static async verify(pubkey, nip05Id) {
     const pk = await Nip05.fetchPubkey(nip05Id)

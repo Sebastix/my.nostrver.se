@@ -21,7 +21,6 @@
         <div class="layout-sidebar-fixed">
           <SearchBox />
           <WelcomeBox />
-          <FollowingBox />
           <FooterBox />
         </div>
       </div>
@@ -116,12 +115,11 @@ export default defineComponent({
     min-height: 100vh;
   }
   &-sidebar {
-    width: 100%;
-    min-width: 330px;
+    width: 300px;
     margin: 0 1rem;
     &-fixed {
       position: fixed;
-      width: 330px;
+      width: 300px;
       max-width: inherit;
     }
   }

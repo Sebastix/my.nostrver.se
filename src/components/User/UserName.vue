@@ -78,6 +78,7 @@ export default {
     align-items: center;
     a {
       font-weight: 600;
+      color: $color-fg;
     }
     .verified-badge {
       margin: 0 4px;

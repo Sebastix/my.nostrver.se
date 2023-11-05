@@ -304,6 +304,9 @@ export default {
   a {
     text-decoration: underline;
     color: $color-primary;
+    &:hover, &:active {
+      text-decoration: none;
+    }
   }
 
   p {

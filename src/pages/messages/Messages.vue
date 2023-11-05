@@ -17,6 +17,11 @@
   </PageHeader>
 
   <div class="messages">
+    <div class="text-center">
+      <q-banner class="bg-dark text-white">
+        Please consider using a more private and better Nostr client for your direct messages like <a href="https://blowater.app">Blowater</a> or <a href="https://0xchat.com/">0xChat</a>.
+      </q-banner>
+    </div>
     <ConversationItem
       v-for="conversation in conversations"
       :key="conversation.pubkey"

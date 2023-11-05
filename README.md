@@ -16,6 +16,7 @@ Please have a look at the list of milestones which I would pick up if I'm able t
 ## Roadmap
 
 - [ ] Implement inline references with NIP-27
+- [ ] When you update your metadata / bio (kind 0) add the option to share your new bio in a text note (kind 1)
 - [ ] Add a view with trending events (https://api.nostr.band/)
 - [ ] Make it lighter, less is more
   - Make it easier to maintain
@@ -23,7 +24,7 @@ Please have a look at the list of milestones which I would pick up if I'm able t
   - Better overall performance
   - Easier to start with a fork
 - [ ] Contact list synchronisation with NIP-65
-- [ ] Create a custom feed with events (inspired by Coracle)
+- [ ] Create a custom feed with events (inspired by Coracle and Primal)
   - Filter on relays
   - Filter on languages
   - Filter on kinds
@@ -67,28 +68,25 @@ npm install
 ```bash
 quasar dev
 ```
-
-
 ### Lint the files
 ```bash
 yarn lint
 # or
 npm run lint
 ```
-
-
 ### Format the files
 ```bash
 yarn format
 # or
 npm run format
 ```
-
-
 ### Build the app for production
 ```bash
 quasar build
 ```
+
+## How to selfhost this client
+@todo
 
 ## License
 
