@@ -41,6 +41,9 @@ Please have a look at the list of milestones which I would pick up if I'm able t
 - [ ] Add a view with all zap goals (NIP-75 kind 9041)
 - [ ] Add option to view raw data of each event
 - [ ] Add a language filter for events / content
+- [ ] Add a view to with lists (kind 30000 + 30001)
+  - View text notes (kind 30000)
+  - View profiles (kind 30001)
 - [ ] Come up with a better name for this client
 - [ ] Login with a key manager (NIP-46)
 - [ ] Advanced view with all your own events
@@ -85,7 +88,7 @@ npm run format
 quasar build
 ```
 
-## How to selfhost this client
+## How to self-host this client
 @todo
 
 ## License
